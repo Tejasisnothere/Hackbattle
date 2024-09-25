@@ -1,0 +1,62 @@
+.money{
+    display: grid;
+    grid-template-columns: 7fr 1fr;
+    background-color: white;
+    height: 100px;
+    padding-top:30px;
+    font-size: 50px;
+    padding-left: 50px;
+    padding-bottom:0px;
+}
+html{
+    background-color: lightblue;
+}
+.pfp{
+    height:70px;
+    border-radius:50%;
+    border-style:solid;
+    border-width:2px;
+
+
+
+}
+.my_bal{
+    padding-top:0px;
+    font-size:20px;
+    color:rgb(183, 183, 147)
+}
+.payment{
+    padding-top: 30px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color:rgb(183, 183, 147)
+    
+}
+.scan{
+    border-width:0px;
+    transition: 0.4s all ease-in-out 0s;
+    color:rgb(183, 183, 147)
+}
+.scan:hover{
+    
+    transform: translateY(-5px);
+    background-color: lightblue;
+    color:rgb(183, 183, 147)
+     
+
+}
+.maps:hover{
+    
+    transform: translateY(-5px);
+}
+
+.add:hover{
+    border-width:1px;
+    transform: translateY(-5px);
+}
+.maps{
+    border:none;
+}
+.add{
+    border:none;
+}
